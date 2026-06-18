@@ -20,7 +20,7 @@
 
 | Tipo | Link |
 | --- | --- |
-| **📢 Canal Oficial** | [Unirse aquí](https://whatsapp.com/channel/0029VbCq9xP2ZjCr6AGMzi1b) |
+| **📢 Canal Oficial** | (https://whatsapp.com/channel/0029VbCq9xP2ZjCr6AGMzi1b) |
 | **⭐ Canal Secundario - Nexer** | [Unirse aquí](https://whatsapp.com/channel/0029VbDCUkcG8l5DqOI71g2O) |
 | **👥 Comunidad Oficial** | [Entrar al grupo](https://chat.whatsapp.com/DYD4N5IvTjD77DYWaYL3Uu) |
 
@@ -34,8 +34,15 @@ Copia y pega estos comandos uno por uno:
 
 ```bash
 pkg update && pkg upgrade -y
+
 pkg install git nodejs ffmpeg imagemagick -y
-git clone https://github.com/damianmoran2025-sketch/MICET-BOT-MD-ULTRA-BOT
+
+git clone https://github.com/damianmoran2025-
+
+sketch/MICET-BOT-MD-ULTRA-BOT
+
 cd MICET-BOT-MD-ULTRA-BOT
+
 npm install
+
 npm start
