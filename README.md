@@ -28,21 +28,61 @@
 
 ---
 
-## 📥 Instalación en Termux
+### 👾 Instalaciónes BOT 👾
 
-Copia y pega estos comandos uno por uno:
+<details>
+<summary><strong>⚡ Cloud</strong> — Shell</summary>
 
 ```bash
-pkg update && pkg upgrade -y
+git clone damianmoran2025-sketch/MICET-BOT-MD-ULTRA-BOT
+```
 
-pkg install git nodejs ffmpeg imagemagick -y
-
-git clone https://github.com/damianmoran2025-
-
-sketch/MICET-BOT-MD-ULTRA-BOT
-
+```bash
 cd MICET-BOT-MD-ULTRA-BOT
+```
 
+```bash
+yarn install
+```
+
+```bash
 npm install
+```
 
+```bash
 npm start
+```
+
+</details>
+
+<details>
+<summary><strong>👾 Termux</strong> — Manualmente</summary>
+
+```bash
+termux-setup-storage
+```
+```bash
+apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
+```
+
+```bash
+git clone damianmoran2025-sketch/MICET-BOT-MD-ULTRA-BOT
+```
+
+```bash
+cd MICET-BOT-MD-ULTRA-BOT
+```
+
+```bash
+yarn install
+```
+
+```bash
+npm install
+```
+
+```bash
+npm start
+```
+
+> *Si aparece **(Y/I/N/O/D/Z) [default=N] ?** use la letra **"y"** y luego **"ENTER"** para continuar con la instalación.*
