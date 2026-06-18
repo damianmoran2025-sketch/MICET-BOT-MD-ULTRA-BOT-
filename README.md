@@ -1,4 +1,3 @@
-# MICET-BOT-MD-ULTRA-BOT-
 <p align="center">
   <img src="https://iili.io/CxuYU3g.png" alt="MICET BOT MD" width="380">
 </p>
@@ -6,7 +5,9 @@
 <h1 align="center">👾 MICET BOT MD 👾</h1>
 
 <p align="center">
-  <a href="https://github.com/Cuerbito/MICET-BOT-MD"><img src="https://img.shields.io/badge/MICET--BOT--MD-Open%20Source%20%7C%20Multi--Device-00f5d4?style=for-the-badge"></a>
+  <a href="https://github.com/damianmoran2025-sketch/MICET-BOT-MD-ULTRA-BOT"><img src="https://img.shields.io/badge/MICET--BOT--MD-Open%20Source%20%7C%20Multi--Device-00f5d4?style=for-the-badge"></a>
+  <img src="https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux">
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js">
 </p>
 
 > **⚡ Bienvenido al repositorio oficial de MICET BOT MD**
@@ -26,3 +27,15 @@
 > **Si el bot te sirvió, dejá tu ⭐ en el repo.** Ayuda a que el proyecto siga creciendo 😼
 
 ---
+
+## 📥 Instalación en Termux
+
+Copia y pega estos comandos uno por uno:
+
+```bash
+pkg update && pkg upgrade -y
+pkg install git nodejs ffmpeg imagemagick -y
+git clone https://github.com/damianmoran2025-sketch/MICET-BOT-MD-ULTRA-BOT
+cd MICET-BOT-MD-ULTRA-BOT
+npm install
+npm start
